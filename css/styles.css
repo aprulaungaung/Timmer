@@ -1,0 +1,114 @@
+body{
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.background-container{
+    position: relative;
+    height: 80vh;
+    width: 70vw;
+    left: 15%;
+    top: 100px;
+    background-color: #3D1766;
+    background-image: url("../images/bg-stars.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.mountain{
+    position: relative;
+    width: 100%;
+    top: 75%;
+}
+
+.launch{
+    position: absolute;
+    left: 23%;
+    top: 20%;
+    color: #EFF5F5;
+    letter-spacing:0.5rem;
+
+    opacity: 0.7;
+}
+
+.display{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+
+}
+
+.day, .hour, .minute,.second{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: #0A2647;
+    display: inline-block;
+    margin: 0 15px;
+    border-radius: 5px;
+
+
+}
+
+.d, .h,.m ,.s{
+
+   position: absolute;
+    top: 17px;
+    left: 21%;
+    font-size: 50px;
+    font-weight:900;
+    color:#D3756B;
+
+}
+
+.social-media{
+  position: relative;
+  top: 60%;
+  left: 42%;
+}
+
+.icon{
+  width: 35px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+@media (max-width: 500px){
+  .launch{
+      left: 11%;
+      top: 15%;
+      line-height: 2;
+      font-size: 16px;
+  }
+
+  .display{
+      position: absolute;
+      left: 7%;
+      top: 45%;
+  }
+
+  .day, .hour, .minute,.second{
+
+      height: 60px;
+      width: 60px;
+      margin: 0 5px;
+  }
+
+  .d, .h,.m ,.s{
+
+      font-size: 25px;
+  }
+  .mountain{
+      height: 40%;
+      top: 90%;
+  }
+
+  .social-media{
+    position: relative;
+    top: 75%;
+    left: 28%;
+  }
+}
