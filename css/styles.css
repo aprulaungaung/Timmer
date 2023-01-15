@@ -102,14 +102,14 @@ body{
 
   .day, .hour, .minute,.second{
 
-      height: 80px;
-      width: 80px;
+      height: 60px;
+      width: 60px;
       margin: 0 10px;
   }
 
   .d, .h,.m ,.s{
 
-      font-size: 35px;
+      font-size: 25px;
   }
   .mountain{
       height: 40%;
