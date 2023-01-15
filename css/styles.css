@@ -102,23 +102,23 @@ body{
 
   .day, .hour, .minute,.second{
 
-      height: 60px;
-      width: 60px;
-      margin: 0 10px;
+      height: 70px;
+      width: 70px;
+      margin: 0 5px;
   }
 
   .d, .h,.m ,.s{
 
-      font-size: 25px;
+      font-size: 30px;
   }
   .mountain{
-      height: 40%;
-      top: 90%;
+      height: 35%;
+
   }
 
   .social-media{
-    position: relative;
-    top: 75%;
+    position: absolute;
+    top: 90%;
     left: 28%;
   }
 }

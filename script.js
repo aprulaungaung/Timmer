@@ -3,9 +3,10 @@ let myInterval = setInterval(()=>{
   counter();
 },1000);
 
+let timeToGo = new Date("Feb28, 2023 15:30:25").getTime();
+
 function counter(){
 
-let timeToGo = new Date("Feb28, 2023 15:30:25").getTime();
 
   let now = new Date().getTime();
 
