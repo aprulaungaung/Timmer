@@ -77,29 +77,39 @@ body{
 }
 
 @media (max-width: 500px){
+
+  .background-container{
+      height: 100vh;
+      width: 100vw;
+      top: 0;
+      left: 0;
+  }
   .launch{
-      left: 11%;
-      top: 15%;
+      left: 15%;
+      right: 5%;
+      top: 20%;
       line-height: 2;
-      font-size: 16px;
+      font-size: 20px;
+      text-align: center;
   }
 
   .display{
       position: absolute;
-      left: 7%;
-      top: 45%;
+      left: 10%;
+      top: 50%;
+
   }
 
   .day, .hour, .minute,.second{
 
-      height: 60px;
-      width: 60px;
-      margin: 0 5px;
+      height: 80px;
+      width: 80px;
+      margin: 0 10px;
   }
 
   .d, .h,.m ,.s{
 
-      font-size: 25px;
+      font-size: 35px;
   }
   .mountain{
       height: 40%;
